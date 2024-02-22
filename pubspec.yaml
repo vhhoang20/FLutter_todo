@@ -1,0 +1,27 @@
+name: todo
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path: any
+  sqflite: ^2.0.2
+  cupertino_icons: ^1.0.6
+  intl: ^0.19.0
+  flutter_local_notifications: ^16.3.2
+  timezone: ^0.9.2
+  permission_handler: ^11.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
